@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 h1 {
   display: block;
-  font-size: 2em;
+  font-size: 100px;
   margin-block-stat: 0.67em;
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
@@ -21,4 +21,17 @@ thead {
     display: table-header-group;
     vertical-align: middle;
     border-color: inherit;
+}
+
+tr {
+    diaplay: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
 }
